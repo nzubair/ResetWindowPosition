@@ -1,15 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PublishSingleFile>true</PublishSingleFile>
+		<Title>Reset Window Position</Title>
+		<Authors>Nasir Zubair</Authors>
+		<RepositoryUrl>https://github.com/nzubair/ResetWindowPosition</RepositoryUrl>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="PInvoke.User32" Version="0.7.124" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="PInvoke.User32" Version="0.7.124" />
+	</ItemGroup>
 
 </Project>
